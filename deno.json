@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "lib": [
+            "dom",
+            "dom.iterable",
+            "dom.asynciterable",
+            "deno.ns"
+        ]
+    },
+    "imports": {
+        "@std/cli": "jsr:@std/cli@^1.0.13",
+        "@google/generative-ai": "https://esm.sh/@google/generative-ai@0.21.0"
+    }
+}

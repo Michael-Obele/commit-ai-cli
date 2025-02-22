@@ -1,0 +1,11 @@
+{
+  "name": "commit-ai-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.ts",
+  "scripts": {
+    "start": "deno run --allow-run=git --allow-env=OPENAI_API_KEY app.ts"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
